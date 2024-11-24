@@ -58,7 +58,7 @@ const DeploymentsSection = ({ deployments }: DeploymentsSectionProps) => {
 
   return (
     <div className="bg-white shadow rounded p-6">
-      <h2 className="text-2xl font-bold mb-4">{selectedModule} Data</h2>
+      <h2 className="text-2xl font-bold mb-4">{selectedModule} - Data shall be fetched here</h2>
       {fetchedDeployments.map((item, index) => (
         <div key={index} className="border-b py-3">
           <h3>{item.project}</h3>

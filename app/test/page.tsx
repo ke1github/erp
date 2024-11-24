@@ -1,12 +1,12 @@
 'use client';
 
-import TabsNavigation from '@/components/TabsNavigation';
+import ProcurementDashboard from '@/components/ProcurementDashboard';
 
 export default function TestPage() {
   return (
-    <div className="p-8">
-      <h1 className="text-2xl font-bold mb-6">Tabs Navigation Test</h1>
-      <TabsNavigation />
+    <div className="p-2">
+      <ProcurementDashboard/>
+            
     </div>
   );
 }
